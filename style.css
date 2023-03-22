@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+*img {
+    vertical-align: middle;
+}
+
+body {
+    margin: 0px auto;
+    line-height: 1.5;
+    font-family: font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container1 {
+    box-sizing: border-box;
+    width: 1200px;
+    /* background-color: #d67b7b; */
+    margin: 0px auto;
+}
+
+h1 {
+    color: #000000;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 95%;
+    font-family: "Roboto";
+}
+
+h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+h2 span {
+    padding: 20px;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #A30101;
+}
+
+.IMG_photo {
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+}
+.IMG_tvdi{
+    width: 125px;
+    height:67px;
+}
+.IMG_FB .IMG_IG .IMG_LINE{
+    margin: 40px;
+}
+.box1, .box2, .box3, .box4 {
+    width: 1200px;
+    background-color: white;
+    border-top: 4px solid grey;
+}
+
+
+.box4-1 {
+    width: 461px;
+    margin-left: 20px;
+    border-left: 4px solid grey;
+    padding-left: 20px;
+}
+.box4 p b{
+    font-size: 24px;
+}
+
+.bluebox {
+    width: 1200px;
+    margin-right: 200px;
+    border-left: 2px solid grey;
+    background: #415165;
+}
+.skillbox {
+    box-sizing: border-box;
+    width: 900px;
+    margin: 0 auto;
+}
+.skillbox h3, h3 span {
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.SKILL_li {
+    color: white;
+    font-size: 20px;
+    border-left: 4px solid white;
+    margin-top: 40px;
+    margin-left: 390px;
+    padding-left: 24px;
+ }
+
+.box5 {
+    width: 1200px;
+    background-color: #e1e0e3;
+    border-top: 2px solid #5B5B5B;
+    text-align: center;
+    padding-top: 10px;
+    background: #415165;
+}
+.box5-1 {
+    width: 900px;
+    border-top: 2px solid white;
+    margin: 0 auto ;
+}
+
+
+.box5 p {
+    color: white;
+    font-size: 32px;
+}
+
+.box5-1 p {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Microsoft JhengHei !important;
+    padding-top: 6px;
+    padding: 6px;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: bold;
+    line-height: 1.2;
+}
+img.FB, IMG.IG, IMG.LINE {
+    
+    margin-right: 30px;
+}
+
